@@ -1,6 +1,6 @@
 {
 "categorias":[
-      {"id":"c1","url_img":"/img/ropa_hombre/","nomcategoria":"Moda hombre","default_img_cat":"/img/ropa_hombre/default_img_cat_hombre.jpg"},
+      {"id":"c1","url_img":"/img/ropa_hombre/","nomcategoria":"Moda hombre","default_img_cat":"../img/ropa_hombre/default_img_cat_hombre.jpg"},
       {"id":"c2","url_img":"/img/ropa_mujer/","nomcategoria":"Moda mujer","default_img_cat":"/img/ropa_mujer/default_img_cat_mujer.jpg"},
       {"id":"c3","url_img":"/img/ropa_infantil/","nomcategoria":"Moda infantil","default_img_cat":"/img/ropa_infantil/default_img_cat_infantil.jpg"}
 ],
