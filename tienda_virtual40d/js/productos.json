@@ -2,7 +2,8 @@
 "categorias":[
       {"id":"c1","url_img":"img/ropa_hombre/","nomcategoria":"Moda hombre","default_img_cat":"img/ropa_hombre/default_img_cat_hombre.jpg"},
       {"id":"c2","url_img":"img/ropa_mujer/","nomcategoria":"Moda mujer","default_img_cat":"img/ropa_mujer/default_img_cat_mujer.jpg"},
-      {"id":"c3","url_img":"img/ropa_infantil/","nomcategoria":"Moda infantil","default_img_cat":"img/ropa_infantil/default_img_cat_infantil.jpg"}
+      {"id":"c3","url_img":"img/ropa_infantil/","nomcategoria":"Moda infantil","default_img_cat":"img/ropa_infantil/default_img_cat_infantil.jpg"},
+      {"id":"c4","url_img":"img/bolsos/","nomcategoria":"Bolsos","default_img_cat":"img/bolsos/bolso_drill.jpeg"}
 ],
 "tallas":[
       {"id_cat":"c1","id_talla":"1","nom_talla":"XS","valor":""},
@@ -14,7 +15,8 @@
       {"id_cat":"c2","id_talla":"2","nom_talla":"S","valor":""},
       {"id_cat":"c2","id_talla":"3","nom_talla":"M","valor":""},
       {"id_cat":"c2","id_talla":"4","nom_talla":"L","valor":""},
-      {"id_cat":"c2","id_talla":"5","nom_talla":"XL","valor":""}
+      {"id_cat":"c2","id_talla":"5","nom_talla":"XL","valor":""},
+      {"id_cat":"c4","id_talla":"1","nom_talla":"alto:38cm y ancho:35cm","valor":""}
 ],
 "colores":[
       {"id_cat":"c1","id_color":"1","nom_color":"blanco","valor":""},
@@ -26,7 +28,8 @@
       {"id_cat":"c2","id_color":"2","nom_color":"negro","valor":""},
       {"id_cat":"c2","id_color":"3","nom_color":"rojo","valor":""},
       {"id_cat":"c2","id_color":"4","nom_color":"azul","valor":""},
-      {"id_cat":"c2","id_color":"5","nom_color":"verde","valor":""}
+      {"id_cat":"c2","id_color":"5","nom_color":"verde","valor":""},
+      {"id_cat":"c4","id_color":"1","nom_color":"beige","valor":""}
 ],
 "productos":[            
       {
@@ -108,6 +111,16 @@
             "preciofer": "75",
             "categoria":"c2",
             "cantidad": 5
-      }              
+      },
+      {
+            "id": "9",
+            "marca": "Impactun",
+            "nomproducto": "Bolso de drill estampado",
+            "imagen": "img/bolsos/bolso_drill.jpeg",
+            "preciocat": "25",
+            "preciofer": "20",
+            "categoria":"c4",
+            "cantidad": 100            
+      }                  
 ]
 }

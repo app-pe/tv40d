@@ -11,7 +11,7 @@ window.onload = function (){
     console.log("ONLOAD CARRITO=========>");   
     verCarrito(); 
     mostrarDetalleCarrito();  
-    };
+    }
 
 function det_masCantidad(){ 
         var valor = document.getElementById("cantidad").value;               
@@ -228,7 +228,8 @@ function agregarCarrito(){
                         cantidad: document.getElementById("cantidad").value,
                         talla: tallax,
                         color: colorx,
-                        subtotal:subtotal
+                        subtotal:subtotal,
+                        imagen: document.getElementById("img-active").src
                     });
                     //carritoTotal.push(carrito);
                     localStorage.setItem("items_carrito", JSON.stringify(carrito));
@@ -301,7 +302,7 @@ items_carrito.forEach((item) => {
     
     chart_det_carrito += `    
     <tr name="vitem">
-         <td class="align-middle"><img src="img/product-1.jpg" alt="" style="width: 50px;">${item.nombre}</td>
+         <td class="align-middle"><img src="img/bolsos/bolso_drill.jpeg" alt="" style="width: 50px;">${item.nombre}</td>
          <td class="align-middle" name="vcolor" value="${item.color}">${item.color}</td>
          <td class="align-middle" name="vtalla" value="${item.talla}">${item.talla}</td>
          <td class="align-middle">${item.precio}</td>
