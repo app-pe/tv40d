@@ -72,7 +72,7 @@ function menu_navegacion(){
                 </a>
                 <a href="" class="btn border">
                     <i class="fas fa-shopping-cart text-primary"></i>
-                    <span class="badge" id="contador_carrito">0</span>
+                    <span class="badge">0</span>
                 </a>
             </div>
     </div>
@@ -126,9 +126,17 @@ function menu_navegacion(){
     </button>
     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
         <div class="navbar-nav mr-auto py-0">
-            <a href="index.html" class="nav-item nav-link active">Inicio</a>
-            <a href="cart.html" class="nav-item nav-link">Ver Carrito</a>
-            
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="shop.html" class="nav-item nav-link">Shop</a>
+            <a href="detail.html" class="nav-item nav-link">Shop Detail</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                <div class="dropdown-menu rounded-0 m-0">
+                    <a href="cart.html" class="dropdown-item">Shopping Cart</a>
+                    <a href="checkout.html" class="dropdown-item">Checkout</a>
+                </div>
+            </div>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
         <div class="navbar-nav ml-auto py-0">
             <a href="" class="nav-item nav-link">Login</a>
@@ -411,11 +419,7 @@ function validarDetalleProd(idp){
                 <h5 id="precio_int" class="font-weight-bold">${precio_internet}</h3>
                 </div>
 
-                <p class="mb-4">
-                El mejor regalo que podemos dar a nuestros hijos siempre será nuestra “Presencia”
-Presente con sus emociones, presente en su autoestima, presente en su vida.<br>
-En esta Navidad es una buena oportunidad para regalarle PRESENCIA a nuestros hijos, a través de este E-book “Las Siete raíces de los hijos exitosos” donde fortalecerás inteligencia emocional, dialogo reflexivo entre padres e hijos e ideas prácticas para fortalecer la presencia con ellos.
-                </p>
+                <p class="mb-4">Seleccione el botón Agregar Carrito para comprar.</p>
                 
                 <div class="d-flex align-items-center mb-4 pt-2">
                     <div class="input-group quantity mr-3" style="width: 130px;">

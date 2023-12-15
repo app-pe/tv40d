@@ -10,7 +10,7 @@ var chart_det_carrito = "";
 window.onload = function (){
     console.log("ONLOAD CARRITO=========>");   
     verCarrito(); 
-    mostrarDetalleCarrito();  
+    mostrarDetalleCarrito();      
     }
 
 function det_masCantidad(){ 

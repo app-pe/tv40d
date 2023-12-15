@@ -4,8 +4,6 @@ var chart_detalle_prod = "";
 var char_tallas = "";
 var char_colores = "";
 var chart_detalle_prod_Final = "";
-var chart_detalle_prod_total1 = "";
-var chart_detalle_prod_total2 = "";
 window.onload = function (){
     console.log("ONLOAD APP=========>");
     cargar_datos();
@@ -157,8 +155,7 @@ function validarCategoria(c){
                 <div class="d-flex mb-3">
                     <p class="text-dark font-weight-medium mb-0 mr-3">Tallas:</p>
                     <form name="f_tallas">`+char_tallas+
-                    //chart_detalle_prod_total1+= chart_detalle_prod + char_tallas;                       
-                    //chart_detalle_prod_total2 +=
+                    
                     `</form>
                 </div>
                 <div class="d-flex mb-4">
@@ -190,8 +187,7 @@ function validarCategoria(c){
            
             `;
 
-            chart_detalle_prod_Final += chart_detalle_prod;
-            //chart_detalle_prod_Final += chart_detalle_prod_total1 + chart_detalle_prod_total2;
+            chart_detalle_prod_Final += chart_detalle_prod;            
             conta++;
         }        
     });
